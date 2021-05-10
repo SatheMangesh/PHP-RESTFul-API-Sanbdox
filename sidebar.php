@@ -1,4 +1,9 @@
 <?php
+
+echo "<pre>";
+print_r($_SERVER);
+
+exit;
 require_once 'database.php';
 $Data =  new Database();
 
